@@ -1,0 +1,37 @@
+.header-navebar {
+    .nav-link {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 500;
+        font-family: "Roboto Condensed", sans-serif;
+
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:active:focus {
+            color: #ef483e;
+        }
+    }
+
+    .dropdown {
+        .dropdown-item {
+            a {
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #000;
+                font-weight: 500;
+                font-family: "Roboto Condensed", sans-serif;
+                text-decoration: none;
+            }
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:active:focus {
+                background-color: #ef483e;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+footer {
+    background-color: #dbdbdb;
+    padding: 15px 0;
+
+    .footer-nave {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .footer-list {
+        list-style: none;
+        vertical-align: top;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0;
+        margin-bottom: 50px;
+
+        li {
+            display: inline-block;
+            width: auto;
+            font-size: 16px;
+            font-weight: 500;
+
+            &:first-child {
+                width: 160px;
+            }
+        }
+    }
+}

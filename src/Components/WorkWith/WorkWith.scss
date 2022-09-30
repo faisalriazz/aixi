@@ -1,0 +1,34 @@
+.our-tech {
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    background-color: #fff;
+    border-radius: 0;
+
+    img {
+        opacity: 0.5;
+        max-width: 100%;
+    }
+
+    .heading-2 {
+        display: none;
+    }
+
+    &:hover {
+        background-color: #2f7ec2;
+        text-decoration: none;
+        border-color: #2f7ec2;
+
+        .heading-1 {
+            display: none;
+        }
+
+        .heading-2 {
+            display: block;
+        }
+
+        img {
+            opacity: 1;
+        }
+    }
+}

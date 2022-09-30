@@ -1,0 +1,96 @@
+.our-tech {
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    background-color: #fff;
+    border-radius: 0;
+
+    .card-img {
+        opacity: 0.5;
+        max-width: 100%;
+    }
+
+    // .heading-2 {
+    //     display: none;
+    // }
+
+    .col:nth-child(4n+1) & {
+        :hover {
+            background-color: #ef483e;
+            text-decoration: none;
+            border-color: #ef483e;
+
+            // .heading-1 {
+            //     display: none;
+            // }
+
+            // .heading-2 {
+            //     display: block;
+            // }
+
+            .card-img {
+                opacity: 1;
+            }
+        }
+    }
+
+    .col:nth-child(4n+2) & {
+        :hover {
+            background-color: #feba12;
+            text-decoration: none;
+            border-color: #feba12;
+
+            // .heading-1 {
+            //     display: none;
+            // }
+
+            // .heading-2 {
+            //     display: block;
+            // }
+
+            .card-img {
+                opacity: 1;
+            }
+        }
+    }
+
+    .col:nth-child(4n+3) & {
+        :hover {
+            background-color: #00a751;
+            text-decoration: none;
+            border-color: #00a751;
+
+            // .heading-1 {
+            //     display: none;
+            // }
+
+            // .heading-2 {
+            //     display: block;
+            // }
+
+            .card-img {
+                opacity: 1;
+            }
+        }
+    }
+
+    .col:nth-child(4n+4) & {
+        :hover {
+            background-color: #2f7ec2;
+            text-decoration: none;
+            border-color: #2f7ec2;
+
+            // .heading-1 {
+            //     display: none;
+            // }
+
+            // .heading-2 {
+            //     display: block;
+            // }
+
+            .card-img {
+                opacity: 1;
+            }
+        }
+    }
+}
